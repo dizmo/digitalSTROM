@@ -1,0 +1,119 @@
+{
+	"projectName": "Arteria-Base",
+	"deployDir": "Arteria-Base",
+	"licenseText": "Copyright 2012 futureLAB AG",
+	"pkgs": [{
+		"name": "Arteria-Base",
+		"file": "target/build/arteria-base.js",
+		"isDebug": true,
+		"fileIncludes": [{
+				"text": "Class.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Command.js",
+				"path": "src/main/javascript/flab/command/"
+			},
+			{
+				"text": "Digest.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "FiniteStateMachine.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Translate.js",
+				"path": "src/main/javascript/flab/l10n/"
+			},
+			{
+				"text": "Translation.js",
+				"path": "src/main/javascript/flab/l10n/"
+			},
+			{
+				"text": "TranslationMixin.js",
+				"path": "src/main/javascript/flab/l10n/"
+			},
+			{
+				"text": "L10n.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Base.js",
+				"path": "src/main/javascript/flab/logger/"
+			},
+			{
+				"text": "GlobalLogger.js",
+				"path": "src/main/javascript/flab/logger/"
+			},
+			{
+				"text": "Levels.js",
+				"path": "src/main/javascript/flab/logger/"
+			},
+			{
+				"text": "Logger.js",
+				"path": "src/main/javascript/flab/logger/"
+			},
+			{
+				"text": "Ajax.js",
+				"path": "src/main/javascript/flab/logger/loggers/"
+			},
+			{
+				"text": "Console.js",
+				"path": "src/main/javascript/flab/logger/loggers/"
+			},
+			{
+				"text": "MessageBus.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "MessageBusImpl.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Namespace.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Properties.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "CheckVisibility.js",
+				"path": "src/main/javascript/flab/test/"
+			},
+			{
+				"text": "WaitTime.js",
+				"path": "src/main/javascript/flab/test/"
+			},
+			{
+				"text": "Test.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "UrlParamParser.js",
+				"path": "src/main/javascript/flab/util/"
+			},
+			{
+				"text": "Utils.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Version.js",
+				"path": "src/main/javascript/flab/"
+			},
+			{
+				"text": "Interface.js",
+				"path": "src/main/javascript/"
+			}]
+	}],
+	"resources": [{
+		"src": "src/",
+		"dest": "src/",
+		"filters": ".*\\.js"
+	},{
+		"src": "test/",
+		"dest": "test/",
+		"filters": ".*[\\.js]"
+	}]
+}

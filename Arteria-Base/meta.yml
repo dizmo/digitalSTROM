@@ -1,0 +1,150 @@
+---
+name:
+    Arteria-Base
+version: 1.1
+release: 0
+description:
+    Base javascript utilities for creating namespaces, logging, state machines,
+    translation, test execution framework, and others
+
+yui_test_tpl: &yui_test_tpl
+    require-script:
+        - yui-test
+        - crypto_md5
+    require-css:
+        - unittest_js
+
+tests:
+    namespace_test:
+        <<: *yui_test_tpl
+    class_test:
+        <<: *yui_test_tpl
+    interface_test:
+        <<: *yui_test_tpl
+    logger_test:
+        <<: *yui_test_tpl
+    config_test:
+        <<: *yui_test_tpl
+    utils_test:
+        <<: *yui_test_tpl
+    urlparamparser_test:
+        <<: *yui_test_tpl
+    fsm_test:
+        <<: *yui_test_tpl
+    message_bus_test:
+        <<: *yui_test_tpl
+    gettext_test:
+        <<: *yui_test_tpl
+        require-script:
+            - yui-test
+            - gettext
+    digest_test:
+        <<: *yui_test_tpl
+    yui_test_test:
+        <<: *yui_test_tpl
+    check_visibility_test:
+        <<: *yui_test_tpl
+    flab_request_test:
+        <<: *yui_test_tpl
+    exception_builder_test:
+        <<: *yui_test_tpl
+    exceptions_test:
+        <<: *yui_test_tpl
+
+libraries:
+    prototype:
+        version: 1.7.1
+        filter:
+            - "+ **.js"
+        script-bundles:
+            prototype:
+                - prototype.js
+    scriptaculous:
+        version: 1.9.0
+        filter:
+            - "+ /src/"
+            - "+ /src/*.js"
+            - "- *"
+        script-bundles:
+            scriptaculous:
+                - src/builder.js
+                - src/effects.js
+                - src/dragdrop.js
+                - src/controls.js
+                - src/slider.js
+                - src/sound.js
+    raphael:
+        version: 2.1.0
+        filter:
+            - "+ **.js"
+        script-bundles:
+            raphael:
+                - raphael.js
+    unittest_js:
+        version: HEAD
+        filter:
+            - "+ /assets/"
+            - "+ /assets/unittest*"
+            - "- *"
+        script-bundles:
+            unittest_js:
+                - assets/unittest.js
+        css-bundles:
+            unittest_js:
+                - assets/unittest.css
+    gettext:
+        version: 0.06
+        filter:
+            - "+ /lib/"
+            - "+ /lib/*.js"
+            - "- *"
+        script-bundles:
+            gettext:
+                - lib/Gettext.js
+    yui-test:
+        version: 3.1.1-1
+        script-bundles:
+            yui-test:
+                - js/yuitest-min.js
+            yui-test-debug:
+                - js/yuitest-debug.js
+    crypto-js:
+        version: 3.0.2
+        script-bundles:
+            crypto_aes:
+                - rollups/aes.js
+            crypto_hmac-md5:
+                - rollups/hmac-md5.js
+            crypto_hmac-sha1:
+                - rollups/hmac-sha1.js
+            crypto_hmac-sha224:
+                - rollups/hmac-sha224.js
+            crypto_hmac-sha256:
+                - rollups/hmac-sha256.js
+            crypto_hmac-sha384:
+                - rollups/hmac-sha384.js
+            crypto_hmac-sha512:
+                - rollups/hmac-sha512.js
+            crypto_md5:
+                - rollups/md5.js
+            crypto_pbkdf2:
+                - rollups/pbkdf2.js
+            crypto_rabbit:
+                - rollups/rabbit.js
+            crypto_rc4:
+                - rollups/rc4.js
+            crypto_sha1:
+                - rollups/sha1.js
+            crypto_sha224:
+                - rollups/sha224.js
+            crypto_sha256:
+                - rollups/sha256.js
+            crypto_sha384:
+                - rollups/sha384.js
+            crypto_sha512:
+                - rollups/sha512.js
+            crypto_tripledes:
+                - rollups/tripledes.js
+            crypto_base64:
+                - components/enc-base64-min.js
+...

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/futurelab/!svn/ver/46764/projects/digitalstrom/trunk/src/javascript/digitalSTROM-Genesis
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/futurelab/!svn/ver/35391/projects/digitalstrom/trunk/src/javascript/digitalSTROM-Genesis/Rakefile
+END
+buildconf.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/futurelab/!svn/ver/39975/projects/digitalstrom/trunk/src/javascript/digitalSTROM-Genesis/buildconf.yml
+END
+meta.yml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/futurelab/!svn/ver/46986/projects/digitalstrom/trunk/src/javascript/digitalSTROM-Genesis/meta.yml
+END
+buildconf.local.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/futurelab/!svn/ver/46886/projects/digitalstrom/trunk/src/javascript/digitalSTROM-Genesis/buildconf.local.yml
+END

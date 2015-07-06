@@ -1,0 +1,5 @@
+---
+:apache_port:   8880
+#:deployment_path:    'crb-devel.futurelab.ch:/data/websites/www.crb.futurelab.ch/www/shaspa'
+:deployment_path:   '/Library/WebServer/Documents/Kastellan/'
+...

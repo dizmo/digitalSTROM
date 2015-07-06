@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 79
+^/external-resources/javascript-libraries/jquery/tags/1.6.1             jquery
+
+END

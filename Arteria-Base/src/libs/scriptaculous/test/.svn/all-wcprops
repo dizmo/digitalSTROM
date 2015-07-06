@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/futurelab/!svn/ver/36123/external-resources/javascript-libraries/scriptaculous/tags/1.9.0/test
+END
+test.css
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/futurelab/!svn/ver/36123/external-resources/javascript-libraries/scriptaculous/tags/1.9.0/test/test.css
+END
+run_unit_tests.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/futurelab/!svn/ver/36123/external-resources/javascript-libraries/scriptaculous/tags/1.9.0/test/run_unit_tests.html
+END
+run_functional_tests.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/futurelab/!svn/ver/36123/external-resources/javascript-libraries/scriptaculous/tags/1.9.0/test/run_functional_tests.html
+END

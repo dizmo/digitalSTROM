@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers
+END
+chrome.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/chrome.rb
+END
+ie.rb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/ie.rb
+END
+firefox.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/firefox.rb
+END
+abstract.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/abstract.rb
+END
+chromium.rb
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/chromium.rb
+END
+konqueror.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/konqueror.rb
+END
+safari.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/safari.rb
+END
+webkit.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/webkit.rb
+END
+opera.rb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/futurelab/!svn/ver/9387/external-resources/javascript-libraries/unittest_js/tags/20090706/lib/unittest_js/browsers/opera.rb
+END

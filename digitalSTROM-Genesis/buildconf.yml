@@ -1,0 +1,10 @@
+---
+:apache_port:           8880
+:dizmos:               [digitalstrom , button , usage , activities , zone , device]
+:dizmos2zip:           [digitalstrom]
+:sub_dizmo_structure:
+    zone: [device]
+    digitalstrom: [button , usage , activities , zone]
+:languages:         [de , en]
+:dizmo_deployment_path:   '/Users/msurber/Library/Application Support/dizmode/InstalledWidgets/'
+...

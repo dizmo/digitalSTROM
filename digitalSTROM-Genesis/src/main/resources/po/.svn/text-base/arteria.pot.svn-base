@@ -1,0 +1,131 @@
+# Arteria-Media-MediaZen-Smile translations
+# Copyright (C) 2010 futureLAB AG <info@futurelab.ch>
+# This file is distributed under the same license as the Arteria package.
+# Andreas Stricker <astricker@futurelab.ch>, 2010
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalSTROM-Genesis 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-18 14:13+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main/javascript/flab/controller/activities.js:41
+#: src/main/javascript/flab/controller/activities.js:51
+#: src/main/javascript/flab/view/genesis/frontside.js:77
+msgid "Activities"
+msgstr ""
+
+#: src/main/javascript/flab/controller/button.js:40
+#: src/main/javascript/flab/controller/button.js:63
+#: src/main/javascript/flab/view/genesis/frontside.js:75
+msgid "Button"
+msgstr ""
+
+#: src/main/javascript/flab/controller/device.js:38
+msgid "Device"
+msgstr ""
+
+#: src/main/javascript/flab/controller/usage.js:39
+#: src/main/javascript/flab/controller/usage.js:49
+#: src/main/javascript/flab/view/genesis/frontside.js:76
+msgid "Usage"
+msgstr ""
+
+#: src/main/javascript/flab/controller/zone.js:44
+#: src/main/javascript/flab/controller/zone.js:54
+msgid "Zone"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:33
+msgid "Choose scene type"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:34
+#: src/main/javascript/flab/view/activities/backside.js:40
+#: src/main/javascript/flab/view/button/backside.js:51
+#: src/main/javascript/flab/view/button/backside.js:56
+msgid "Light"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:39
+msgid "All"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:41
+#: src/main/javascript/flab/view/button/backside.js:57
+msgid "Shadow"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:42
+#: src/main/javascript/flab/view/button/backside.js:58
+msgid "Climate"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:51
+#: src/main/javascript/flab/view/activities/backside.js:138
+msgid "Select the activity you want to update"
+msgstr ""
+
+#: src/main/javascript/flab/view/activities/backside.js:132
+msgid "Update activity"
+msgstr ""
+
+#: src/main/javascript/flab/view/button/backside.js:50
+msgid "Choose button type"
+msgstr ""
+
+#: src/main/javascript/flab/view/button/backside.js:61
+msgid "Walk"
+msgstr ""
+
+#: src/main/javascript/flab/view/button/backside.js:62
+msgid "Panic"
+msgstr ""
+
+#: src/main/javascript/flab/view/button/backside.js:63
+msgid "Bell"
+msgstr ""
+
+#: src/main/javascript/flab/view/genesis/backside.js:34
+msgid "Hostname"
+msgstr ""
+
+#: src/main/javascript/flab/view/genesis/backside.js:36
+msgid "Inactive token:"
+msgstr ""
+
+#: src/main/javascript/flab/view/genesis/backside.js:47
+msgid "Add zone"
+msgstr ""
+
+#: src/main/javascript/flab/view/genesis/frontside.js:78
+msgid "Devices"
+msgstr ""
+
+#: src/main/javascript/flab/view/usage/frontside.js:29
+msgid "Minute"
+msgstr ""
+
+#: src/main/javascript/flab/view/usage/frontside.js:30
+msgid "Tag"
+msgstr ""
+
+#: src/main/javascript/flab/view/usage/frontside.js:31
+msgid "Woche"
+msgstr ""
+
+#: src/main/javascript/flab/view/usage/frontside.js:32
+msgid "Monat"
+msgstr ""
+
+#: src/main/javascript/flab/view/usage/frontside.js:33
+msgid "Jahr"
+msgstr ""

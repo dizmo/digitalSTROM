@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/futurelab/!svn/ver/36120/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/xslt
+END
+template-libs.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/futurelab/!svn/ver/36120/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/xslt/template-libs.xsl
+END
+common.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/futurelab/!svn/ver/28586/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/xslt/common.xsl
+END
+catalyst-common.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/futurelab/!svn/ver/25423/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/xslt/catalyst-common.xsl
+END
+common-html5.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/futurelab/!svn/ver/35922/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/xslt/common-html5.xsl
+END

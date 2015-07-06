@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 27
+buildconf.local.yml
+target
+
+K 16
+tsvn:logtemplate
+V 16
+Arteria-Base:
+* 
+END

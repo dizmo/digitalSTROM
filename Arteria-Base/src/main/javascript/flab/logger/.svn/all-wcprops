@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger
+END
+Base.js
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger/Base.js
+END
+Levels.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger/Levels.js
+END
+loggers_namespace.js
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger/loggers_namespace.js
+END
+Logger.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger/Logger.js
+END
+GlobalLogger.js
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/futurelab/!svn/ver/40762/projects/arteria/trunk/src/javascript/Arteria-Base/src/main/javascript/flab/logger/GlobalLogger.js
+END

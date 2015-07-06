@@ -1,0 +1,9 @@
+$: << File.join(File.dirname(__FILE__), '..', 'build', 'lib')
+
+require 'arteria/javascript/rake_tasks'
+require 'arteria/javascript/rake_create_tasks'
+require 'arteria/javascript/rake_rpm_tasks'
+
+Arteria::JavaScript::RakeTasks.new
+Arteria::JavaScript::RakeCreateTasks.new
+Arteria::JavaScript::RakeRpmTasks.new
