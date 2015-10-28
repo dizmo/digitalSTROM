@@ -1,2 +1,3 @@
 *.dzm
 .DS_Store
+build

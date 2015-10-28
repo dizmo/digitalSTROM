@@ -28,6 +28,10 @@
 	<string>Starter dizmo for developers trying out Grace.</string>
 	<key>ElementsVersion</key>
 	<string>1.0</string>
+	<key>EmbeddedBundles</key>
+	<array>
+		<string>ch.futurelab.dizmo.digitalstrom.device</string>
+	</array>
 	<key>ForceUpdate</key>
 	<false/>
 	<key>Height</key>
