@@ -83,7 +83,7 @@ flab.controller.zone = flab.Class.extend(flab.controller.genesisBase, /** @lends
 				return;
 			}
 			console.log('is not installed');
-			viewer.installBundle("bundle://dizmos/device.dizmo.zip");
+			viewer.installBundle("bundle://assets/device_v0.1.dzm");
 			var subscriptionID = viewer.onBundleAdded(function(bundles){
 				for (var i = 0 ; i < bundles.length ; i++) {
 					if (bundles[i].identifier == "ch.futurelab.dizmo.digitalstrom.device") {
