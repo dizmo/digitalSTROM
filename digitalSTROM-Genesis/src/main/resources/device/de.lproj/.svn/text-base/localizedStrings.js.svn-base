@@ -1,3 +1,0 @@
-var localizedStrings = {
-	"Device" : "Gerät"
-};

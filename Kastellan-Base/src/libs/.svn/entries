@@ -1,43 +1,0 @@
-10
-
-dir
-46775
-https://svn.futurelab.ch/repos/futurelab/projects/digitalstrom/trunk/src/javascript/Kastellan-Base/src/libs
-https://svn.futurelab.ch/repos/futurelab
-
-
-
-2011-08-30T17:19:13.829157Z
-25181
-msurber
-has-props
-
-
-svn:externals
-
-
-
-
-
-
-
-
-
-
-00cae806-1434-42da-8a47-bf5639d4cf4c
-
-jqueryui
-dir
-
-widget_test
-dir
-
-widget
-dir
-
-flot
-dir
-
-widget_browser
-dir
-

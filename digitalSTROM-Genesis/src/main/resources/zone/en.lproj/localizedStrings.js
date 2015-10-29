@@ -1,3 +1,0 @@
-var localizedStrings = {
-	"Zone" : "Room"
-};
