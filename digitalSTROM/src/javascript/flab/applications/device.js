@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/controller/device>
+//= require flab/Namespace
+//= require flab/controller/device
 var device = new flab.controller.device(jQuery("#frontcontent") , jQuery("#backcontent"));
 
 function showBack(event) {

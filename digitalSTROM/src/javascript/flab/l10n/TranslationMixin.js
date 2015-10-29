@@ -1,5 +1,5 @@
 //= compat
-//= require <flab/Namespace>
+//= require flab/Namespace
 
 flab.Namespace.create('flab.l10n');
 

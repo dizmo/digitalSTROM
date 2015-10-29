@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
+//= require flab/Namespace
+//= require flab/Class
 
 flab.Namespace.create('flab.view.button');
 

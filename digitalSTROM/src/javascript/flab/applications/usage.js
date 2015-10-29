@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/controller/usage>
+//= require flab/Namespace
+//= require flab/controller/usage
 var usage = new flab.controller.usage(jQuery("#frontcontent") , jQuery("#backcontent"));
 
 

@@ -1,7 +1,7 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
-//= require <jquery/jeditable>
+//= require flab/Namespace
+//= require flab/Class
+//= require jquery/jeditable
 
 flab.Namespace.create('flab.view.usage');
 

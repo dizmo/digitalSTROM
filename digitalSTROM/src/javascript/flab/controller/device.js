@@ -1,11 +1,11 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
-//= require <flab/HomeAutomation>
-//= require <flab/view/device/backside>
-//= require <flab/view/device/frontside>
-//= require <flab/controller/genesisBase>
-//= require <flab/l10n/Translate>
+//= require flab/Namespace
+//= require flab/Class
+//= require flab/HomeAutomation
+//= require flab/view/device/backside
+//= require flab/view/device/frontside
+//= require flab/controller/genesisBase
+//= require flab/l10n/Translate
 
 /* patching a once again buggy dizmojs library 
    https://tracker.dizmo.com/browse/DSD-892 */

@@ -1,12 +1,12 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
-//= require <flab/HomeAutomation>
-//= require <flab/view/button/backside>
-//= require <flab/view/button/frontside>
-//= require <flab/view/button/frontsideSingle>
-//= require <flab/l10n/Translate>
-//= require <flab/controller/genesisBase>
+//= require flab/Namespace
+//= require flab/Class
+//= require flab/HomeAutomation
+//= require flab/view/button/backside
+//= require flab/view/button/frontside
+//= require flab/view/button/frontsideSingle
+//= require flab/l10n/Translate
+//= require flab/controller/genesisBase
 
 flab.Namespace.create('flab.controller');
 

@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/controller/activities>
+//= require flab/Namespace
+//= require flab/controller/activities
 
 /**
  * This is the default javascript class which will handle all the requests from Kastellan

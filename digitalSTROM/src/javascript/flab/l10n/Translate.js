@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/l10n/Translation>
+//= require flab/Namespace
+//= require flab/l10n/Translation
 
 flab.Namespace.create('flab.l10n');
 

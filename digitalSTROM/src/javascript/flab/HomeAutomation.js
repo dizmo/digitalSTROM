@@ -1,7 +1,7 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
-//= require <flab/digitalstrom/connector>
+//= require flab/Namespace
+//= require flab/Class
+//= require flab/digitalstrom/connector
 
 flab.Namespace.create('flab');
 

@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/controller/zone>
+//= require flab/Namespace
+//= require flab/controller/zone
 var zone = new flab.controller.zone(jQuery("#frontcontent") , jQuery("#backcontent"));
 
 /**

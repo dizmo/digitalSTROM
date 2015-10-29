@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
+//= require flab/Namespace
+//= require flab/Class
 
 flab.Namespace.create('flab.l10n');
 flab.Namespace.require('Gettext');  // need JS-Gettext (jsgettext.berlios.de)

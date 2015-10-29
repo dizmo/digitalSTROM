@@ -1,5 +1,5 @@
 //= compat
-//= require <flab/Namespace>
+//= require flab/Namespace
 /**
  * @namespace a namespace for the flab.view.activities classes
  *

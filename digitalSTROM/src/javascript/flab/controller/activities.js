@@ -1,11 +1,11 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/Class>
-//= require <flab/view/activities/backside>
-//= require <flab/view/activities/frontside>
-//= require <flab/l10n/Translate>
-//= require <flab/controller/genesisBase>
-//= require <flab/HomeAutomation>
+//= require flab/Namespace
+//= require flab/Class
+//= require flab/view/activities/backside
+//= require flab/view/activities/frontside
+//= require flab/l10n/Translate
+//= require flab/controller/genesisBase
+//= require flab/HomeAutomation
 
 flab.Namespace.create('flab.controller');
 flab.controller.activities = flab.Class.extend(flab.controller.genesisBase, /** @lends flab.controller.activities.prototype */{

@@ -1,6 +1,6 @@
 //= compat
-//= require <flab/Namespace>
-//= require <flab/controller/button>
+//= require flab/Namespace
+//= require flab/controller/button
 var button = new flab.controller.button(jQuery("#frontcontent") , jQuery("#backcontent"));
 
 function showBack(event) {
