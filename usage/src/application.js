@@ -1,5 +1,6 @@
 //= require jquery/jquery
 //= require jquery/jqueryui
+//= require jquery/flot
 //= require Gettext/Gettext
 //= require flab/Namespace
 //= require flab/controller/usage

@@ -37,7 +37,7 @@ flab.view.button.frontside = flab.Class.extend(Object, /** @lends flab.view.butt
 		    	<area shape="poly" coords="0,0,70,70,70,186,0,256,0,0" onclick="button.buttonPressed(\'left\');"/>\
 		    	<area shape="poly" coords="70,70,186,70,186,186,70,186,70,70" onclick="button.buttonPressed(\'push\');"/>\
 	   		</map>\
-			<img src="css/images/button.png" class="mainbutton" usemap="#dsButtonMap" ismap="ismap"/>\
+			<img src="style/images/button.png" class="mainbutton" usemap="#dsButtonMap" ismap="ismap"/>\
 			<div class="mainbuttonicontop"></div>\
 			<div class="mainbuttoniconDown"></div>\
 			<div class="mainbuttoniconRight"></div>\
