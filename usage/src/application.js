@@ -1,4 +1,4 @@
-//= compat
+//= require jquery/jquery
 //= require flab/Namespace
 //= require flab/controller/usage
 
