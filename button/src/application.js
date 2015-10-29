@@ -1,5 +1,5 @@
-//= require ../../../digitalSTROM/src/javascript/flab/Namespace
-//= require ../../../digitalSTROM/src/javascript/flab/controller/button
+//= require flab/Namespace
+//= require flab/controller/button
 
 function showBack(event) {
     dizmo.showBack();

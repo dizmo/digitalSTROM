@@ -1,5 +1,5 @@
-//= require ../../../digitalSTROM/src/javascript/flab/Namespace
-//= require ../../../digitalSTROM/src/javascript/flab/controller/activities
+//= require flab/Namespace
+//= require flab/controller/activities
 
 // If your dizmo has a back side, include this function. Otherwise you
 // can delete it!

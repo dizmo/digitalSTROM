@@ -1,6 +1,6 @@
 //= compat
-//= require ../../../digitalSTROM/src/javascript/flab/Namespace
-//= require ../../../digitalSTROM/src/javascript/flab/controller/usage
+//= require flab/Namespace
+//= require flab/controller/usage
 
 
 function showFront(event) {

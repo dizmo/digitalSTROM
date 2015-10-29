@@ -1,6 +1,5 @@
-//= compat
-//= require ../../../digitalSTROM/src/javascript/flab/Namespace
-//= require ../../../digitalSTROM/src/javascript/flab/controller/zone
+//= require flab/Namespace
+//= require flab/controller/zone
 
 /**
  * Called when clicked on the finish button on the back side of the widget.
