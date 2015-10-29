@@ -8,18 +8,17 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-    <div id="front">
-        <div class="center">
-            <p>Hello World</p>
-        </div>
-    </div>
-    <div id="back">
-        <div class="done-btn-wrapper">
-            <button id="doneBtn" class="done-btn" data-type="dizmo-button">Done</button>
-        </div>
-    </div>
-
-    <!-- Your own JavaScript (do not remove!) -->
+	<div class="front">
+		<div id="frontcontent">Button Front</div>
+	</div>
+	<div class="back zone_back" style="display:none;">
+		<div class="backside_container" style="width:216px;height:216px;">
+			<input type="button" value="Finish" class="finish-btn" onclick="showFront();"></input>
+			<div id="backcontent">Button Back</div>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
     <script type="text/javascript" src="application.js"></script>
 </body>
 </html>
