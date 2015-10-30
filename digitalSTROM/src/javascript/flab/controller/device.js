@@ -147,7 +147,7 @@ flab.controller.device = flab.Class.extend(Object, /** @lends flab.controller.de
 		}
 		iconname = iconname + '.png';
 		console.log('iconname = ' , iconname);
-		dizmo.setAttribute('settings/iconimage' , iconname);
+		dizmo.setAttribute('settings/iconimage' , "assets/" + iconname);
 	},
 
 	/**
