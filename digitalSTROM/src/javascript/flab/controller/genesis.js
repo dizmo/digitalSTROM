@@ -197,13 +197,13 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 	coundConnect : function() {
 		var me = this;
 		console.log('could connect to dss!');
-		dizmo.setAttribute('settings/iconimage' , 'assets/IconActive.png');
+		dizmo.setAttribute('settings/iconimage' , 'assets/IconActive.svg');
 	},
 
 	lostConnection : function() {
 		var me = this;
 		console.log('could not connect to dss!');
-		dizmo.setAttribute('settings/iconimage' , 'assets/IconInActive.png');
+		dizmo.setAttribute('settings/iconimage' , 'assets/IconInActive.svg');
 	},
 	/**
 	 * will be called by the digitalSTROM connector if an invalid hostname has been entered.
