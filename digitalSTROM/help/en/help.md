@@ -5,7 +5,6 @@
 1. Screenshots
 2. Description
 3. What is new in V0.1
-4. Works well with
 5. Additional information
 
 ## Screenshots
@@ -25,10 +24,6 @@ Use the settings of the scene dizmo to programm your digitalSTROM scenes. Set va
 ## What is new in V0.1
 
 Initial version of the dizmos
-
-## Works well with
-
-(Optional) List the hardware and/or the dizmos with which your dizmo can be used.
 
 ## Additional Information
 
