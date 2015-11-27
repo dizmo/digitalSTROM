@@ -808,7 +808,8 @@ flab.digitalstrom.connector = flab.Class.extend(Object, {
 		var me = this;
 		var tmp = new Date();
 		myKey = dizmo.identifier + tmp.getTime();
-		me.genesis.publicStorage.subscribeToProperty('response/'+myKey+'/status' , function(key, newVal, oldVal){
+		var sub_id = me.genesis.publicStorage.subscribeToProperty('response/'+myKey+'/status' , function(key, newVal, oldVal){
+			me.genesis.publicStorage.unsubscribeProperty(sub_id);
 			var dataKey = key.replace('status' , 'data');
 			if (newVal == 'success') {
 				var data = me.genesis.publicStorage.getProperty(dataKey);

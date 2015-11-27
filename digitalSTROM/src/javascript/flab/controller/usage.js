@@ -19,7 +19,7 @@ flab.controller.usage = flab.Class.extend(flab.controller.genesisBase, /** @lend
 	 */
 	constructor: function(frontElement,backElement) {
 		var me = this;
-		me.pollinginterval = 2000;
+		me.pollinginterval = 10000;
 		// setup the digitalSTROM Connector
 		var hm = new flab.HomeAutomation();
 		me.connector = hm.getConnector();
