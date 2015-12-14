@@ -813,6 +813,14 @@ flab.digitalstrom.connector = flab.Class.extend(Object, {
 			var dataKey = key.replace('status' , 'data');
 			if (newVal == 'success') {
 				var data = me.genesis.publicStorage.getProperty(dataKey);
+
+				// delete data
+				me.genesis.publicStorage.deleteProperty(key);
+				me.genesis.publicStorage.deleteProperty(dataKey);
+				dataKey=dataKey.replace('response/','ajax/');
+				dataKey=dataKey.replace('/data','/uri');
+				me.genesis.publicStorage.deleteProperty(dataKey);
+
 				callback(data);
 			} else {
 				var data = me.genesis.publicStorage.getProperty(dataKey);
