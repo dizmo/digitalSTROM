@@ -1,6 +1,6 @@
 ##digitalSTROM dizmo
 
-If you have grace installed, build with python manage.py zip
+If you have grace installed, build the dizmo with python manage.py zip
 
 Then, drag the built dizmo from the build subfolder into your dizmoSpace
 
