@@ -127,22 +127,22 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 			me.start_dizmo(bundleId , zoneid , displayname);
 			return;
 		}
-		viewer.installBundle(path);
-		var subscriptionID = viewer.onBundleAdded(function(bundles){
-			for (var i = 0 ; i < bundles.length ; i++) {
-				if (bundles[i].identifier == bundleId) {
-					me.start_dizmo(bundleId , zoneid , displayname);
-					viewer.unsubscribeBundleChanges(subscriptionID);
-				}
-			}
-		});
+		var start=function(bid,error){
+                        me.start_dizmo(bid,zoneid,displayname);
+                }
+		// install bundle async and start the dizmo in the callback
+                viewer.installBundle(path,start);
 	},
 	
 	start_dizmo : function(bundleId , zoneid , displayname) {
 		var me = this;
 		var buttonBundle = new dizmojs.Bundle(bundleId);
-		var dizmoInstance = buttonBundle.instantiateDizmo();
-		me.set_zone_id_and_name_for_dizmo_instance(zoneid , displayname , dizmoInstance , {} , dizmo);
+		
+                var do_set=function(dizmoInst,error) {
+                        me.set_zone_id_and_name_for_dizmo_instance(zoneid,displayname,dizmoInst,{},dizmo);
+                }
+		// instantiate the dizmo async and set zoneid and name in the callback
+                var dizmoInstance = buttonBundle.instantiateDizmo({},{},{},do_set);
 	},
 	
 	/**
