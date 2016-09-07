@@ -101,32 +101,31 @@ flab.controller.zone = flab.Class.extend(flab.controller.genesisBase, /** @lends
 		var pos = dizmo.getAbsoluteGeometry();
 		console.log('pos = ' , pos);
 		for( var i = 0 ; i < sensors.length ; i++) { //		
+
+			(function(j){
+
 			var buttonBundle = new dizmojs.Bundle("ch.futurelab.dizmo.digitalstrom.device");
 			/* TODO: optimize the positioning and start to scale the dizmo if we have to many devices. */
-			var x = pos.x + ((40+10) * (i % 4)) + 10;
-			var y = pos.y + ((40+10) * Math.floor(i/4)) + 50;
-			console.log('i = ' , i , ' x = ' , x , ' y = ' , y);
+			var x = pos.x + ((40+10) * (j % 4)) + 10;
+			var y = pos.y + ((40+10) * Math.floor(j/4)) + 50;
+			console.log('j = ' , j , ' x = ' , x , ' y = ' , y);
 			var initParams = {
 				'geometry/x' : x,
 				'geometry/y' : y,
 				'state/iconized' : true
 			};
-			var dizmoInstance = buttonBundle.instantiateDizmo(initParams);
-			dizmoInstance.setParentDizmo(dizmo);
-			
-			console.log('starting new device dizmo with params : ' , me.zoneid , sensors[i].name , dizmoInstance , sensors[i] , me.genesis);
-			me.set_zone_id_and_name_for_dizmo_instance(me.zoneid , sensors[i].name , dizmoInstance , sensors[i] , me.genesis);
 
-			/*
-			var classId = widget.classIdForInstance(instanceId);
-			var key = classId + "/" + instanceId + "/kastellan/parent";
-			widget.setGlobalPreferenceForKey(widget.identifier,key);
-			*/
+			do_set=function(dizmoInst,error) {
+				dizmoInst.setParentDizmo(dizmo);
+		
+			    console.log('starting new device dizmo with params : ' , me.zoneid , sensors[j].name , dizmoInstance , sensors[j] , me.genesis);
+			    me.set_zone_id_and_name_for_dizmo_instance(me.zoneid , sensors[j].name , dizmoInst , sensors[j] , me.genesis);
+			}
 
-			/*
-			var key2 = classId + "/" + instanceId + "/kastellan/animationDuration";
-			widget.setGlobalPreferenceForKey(10,key2);
-			*/
+			var dizmoInstance = buttonBundle.instantiateDizmo(initParams,{},{},do_set);
+
+			})(i);
+
 		}
 	},
 
