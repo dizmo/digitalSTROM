@@ -62,8 +62,7 @@ flab.digitalstrom.connector = flab.Class.extend(Object, {
 		var me = this;
 		var jqxhr = jQuery.ajax({
 				url: me.protocol + '://' + me.host + '/json/system/requestApplicationToken?applicationName=Dizmo',
-				dataType : 'json',
-				timeout: 1000
+				dataType : 'json'
 			})
 		    .success(function(data) {
 				for (var i = 0; i < me.delegates.length ; i++ ) {
