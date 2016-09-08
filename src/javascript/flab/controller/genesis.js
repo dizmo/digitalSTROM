@@ -88,7 +88,7 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 	 */
 	get_button_widget_for_zone : function(zoneid , displayname) {
 		var me = this;
-		me.install_and_start_dizmo("bundle://assets/button_v0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.button" , zoneid , displayname);
+		me.install_and_start_dizmo("bundle://assets/button-0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.button" , zoneid , displayname);
 	},
 	/**
 	 * Will be called from the frontside view instance, if the user clicks a button and wants to
@@ -98,7 +98,7 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 	 */
 	get_usage_widget_for_zone : function(zoneid , displayname) {
 		var me = this;
-		me.install_and_start_dizmo("bundle://assets/usage_v0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.usage" , zoneid , displayname);
+		me.install_and_start_dizmo("bundle://assets/usage-0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.usage" , zoneid , displayname);
 	},
 	/**
 	 * Will be called from the frontside view instance, if the user clicks a button and wants to
@@ -108,7 +108,7 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 	 */
 	get_activities_widget_for_zone : function(zoneid , displayname) {
 		var me = this;
-		me.install_and_start_dizmo("bundle://assets/activities_v0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.activities" , zoneid , displayname);
+		me.install_and_start_dizmo("bundle://assets/activities-0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.activities" , zoneid , displayname);
 	},
 	/**
 	 * Will be called from the frontside view instance, if the user clicks a button and wants to
@@ -118,7 +118,7 @@ flab.controller.genesis = flab.Class.extend(flab.controller.genesisBase, /** @le
 	 */
 	get_zone_widget_for_zone : function(zoneid , displayname) {
 		var me = this;
-		me.install_and_start_dizmo("bundle://assets/zone_v0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.zone" , zoneid , displayname);
+		me.install_and_start_dizmo("bundle://assets/zone-0.1.dzm" , "ch.futurelab.dizmo.digitalstrom.zone" , zoneid , displayname);
 	},
 	
 	install_and_start_dizmo : function(path , bundleId , zoneid , displayname) {
